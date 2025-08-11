@@ -206,7 +206,7 @@ export const commands: Record<string, CommandFn> = {
       { cmd:'palette', desc:'Show active ANSI palette', cat:'theme' },
       { cmd:'theme list', desc:'List available themes', cat:'theme' },
       { cmd:'theme set <name>', desc:'Switch theme', cat:'theme' },
-  { cmd:'unlock-theme <name>', desc:'Unlock hidden theme (explore misc/ deeply)', cat:'theme' },
+  { cmd:'unlock-theme <name>', desc:'Unlock hidden theme (look around for the key!)', cat:'theme' },
       { cmd:'about', desc:'Brief profile + summary', cat:'resume' },
       { cmd:'summary', desc:'One-line summary', cat:'resume' },
       { cmd:'skills', desc:'Detailed skills listing', cat:'resume' },
