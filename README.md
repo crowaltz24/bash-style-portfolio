@@ -55,6 +55,7 @@ Aggregated files (skills.txt, experience.txt, projects.txt) also exist inside th
 `theme list` shows non-secret themes. `theme set <name>` applies instantly by updating CSS variables; previously printed output recolors because ANSI segments are styled via CSS palette variables. Use `palette` to view the current theme's semantic category mapping (personal/system/resume/theme/special/file/dir/dim). The secret theme adds a body class for a subtle neon glow.
 
 ### Secret Theme Unlock
+CURRENTLY A BIT PROBLEMATIC, WILL FIX
 1. Explore the file system.
 2. Find & `cat` the hidden `.key` file (it's suppressed in `tree`!).
 
