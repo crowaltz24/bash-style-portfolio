@@ -66,6 +66,8 @@ Edit `src/terminal/profile.ts` to change:
 * Projects / experience / certifications / education
 * Birthdate (affects uptime calculation in neofetch)
 
+Swap out your neofetch ascii art in `src/assets/neofetch.txt`.
+
 Add or adjust commands in `src/terminal/commands.ts` (extend the `commands` map or themed command handler). 
 
 Virtual filesystem structure is generated in `src/terminal/virtualfs.ts` - you can add dynamic files or new directories there.
